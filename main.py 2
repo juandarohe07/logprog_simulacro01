@@ -1,0 +1,11 @@
+#coding=utf-8
+print( 'Programa para calcular la distancia total recorrida y el promedio de contaminación por recorrido')
+total_recorridos= int(input('Ingrese el número de recorridos: '))
+if total_recorridos>=12:
+  print('La distancia es válida')
+else:
+  print('La distancia no es válida')
+contador = 1
+while contador <= total_recorridos:
+  print('Recorrido Número',contador)
+  contador += 1 
