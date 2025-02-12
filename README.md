@@ -1,1 +1,0 @@
-# logprog_simulacro01
